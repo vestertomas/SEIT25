@@ -11,11 +11,11 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>21</java.version>
-        <selenium.version>4.27.0</selenium.version>
-        <io.appium.version>9.3.0</io.appium.version>
-        <junit.version>5.11.3</junit.version>
-        <cucumber.version>7.20.0</cucumber.version>
-        <cucumber.picocontainer.version>7.18.1</cucumber.picocontainer.version>
+        <selenium.version>4.38.0</selenium.version>
+        <io.appium.version>10.0.0</io.appium.version>
+        <junit.version>5.14.1</junit.version>
+        <cucumber.version>7.31.0</cucumber.version>
+        <cucumber.picocontainer.version>7.31.0</cucumber.picocontainer.version>
     </properties>
 
     <dependencyManagement>
@@ -126,7 +126,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.13.0</version>
+                <version>3.14.1</version>
                 <configuration>
                     <encoding>UTF-8</encoding>
                     <source>${java.version}</source>
@@ -136,7 +136,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.5.0</version>
+                <version>3.5.4</version>
                 <configuration>
                     <properties>
                         <!-- Work around. Surefire does not include enough
