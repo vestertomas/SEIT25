@@ -2,6 +2,18 @@
 
 This is a simple setup for Cucumber with Selenium using Java.
 
+## Repo Clone and Submission
+
+Please clone this repo (do NOT fork it), and push changes to your own account. Example of process steps linked [here](https://stackoverflow.com/questions/18200248/cloning-a-repo-from-someone-elses-github-and-pushing-it-to-a-repo-on-my-github).
+
+```
+- Follow good version control practices.
+- An initial commit after cloning the repo, before making any changes.
+- Any additional commits you want as you progress through the task.
+```
+
+Please push your work to your own github repo and share the link to the project with us, in good time, for review prior to interview. Please expect some questions/technical discussion during the interview, relating to your implementation of the given task.
+
 ## Project Requirements / Recommendations
 
 - GitHub Account
@@ -14,7 +26,7 @@ This is a simple setup for Cucumber with Selenium using Java.
 
 Open a command/terminal window at the same level as this readme and run:
 
-`cd maven`
+`cd cucumber-java-selenium`
 
 `./mvn test -DskipTests`
 
@@ -34,18 +46,9 @@ You can also specify what to run by *tag*:
 
 # Required task
 
-```
-Please clone this repo (do NOT fork it), and follow good version control practices.
-
-- An initial commit after cloning the repo, before making any changes.
-- Any additional commits you want as you progress through the task.
-```
-
 There are 3 titled scenarios in the [feature file](cucumber-java-selenium/src/test/resources/io/cucumber/features/theInternet.feature).
 
 Please complete the scenarios to cover the requirements. Feel free to rework/create step definitions, rework/create Page Object Models as you deem appropriate.
-
-Once you have completed the task, please push your work to your own github repo and share the link to the project with us for review prior to interview. Please expect some questions/technical discussion during the interview, relating to your implementation of the given task.
 
 ### Requirement for Scenario: Homepage has a list of links to Expected examples
 
@@ -102,10 +105,9 @@ Test that navigation behaviour works as expected from the 'Homescreen' to 'Basic
 
 Ensure the Example 1 table displays the following results.
 
-```
-Last Name   First Name  Email                   Due     Web Site
-Smith	    John	jsmith@gmail.com	$50.00	http://www.jsmith.com
-Bach	    Frank	fbach@yahoo.com	        $51.00	http://www.frank.com
-Doe	    Jason	jdoe@hotmail.com	$100.00	http://www.jdoe.com
-Conway	    Tim	        tconway@earthlink.net	$50.00	http://www.timconway.com
-```
+| Last Name | First Name | Email                  | Due    | Web Site                   |
+|-----------|------------|------------------------|--------|----------------------------|
+| Smith     | John       | jsmith@gmail.com       | $50.00 | http://www.jsmith.com      |
+| Bach      | Frank      | fbach@yahoo.com        | $51.00 | http://www.frank.com       |
+| Doe       | Jason      | jdoe@hotmail.com       | $100.00| http://www.jdoe.com        |
+| Conway    | Tim        | tconway@earthlink.net  | $50.00 | http://www.timconway.com   |
