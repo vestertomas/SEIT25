@@ -11,7 +11,6 @@ import io.cucumber.pages.HomePage;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 public class NavigationStep extends Context {
   public NavigationStep(Manager manager) {
