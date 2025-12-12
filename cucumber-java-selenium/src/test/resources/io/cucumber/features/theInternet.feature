@@ -4,8 +4,8 @@ Feature: The Internet
   @TEST_TI_0001
   Scenario: Homepage has a list of links to Expected examples
     Given the page under test is 'https://the-internet.herokuapp.com'
-    And an example Home Page step
-    And add other steps
+    When I check the list of example
+    Then the expected example links should be visible
 
   @TEST_TI_0002
   Scenario: Basic Auth allows validated access
@@ -16,5 +16,7 @@ Feature: The Internet
 
   @TEST_TI_0003
   Scenario: Sortable Data Tables - Example 1 displays the expected 4 results
-    Given the page under test is 'Sortable Data Tables'
-    And add other steps
+    Given the page under test is 'https://the-internet.herokuapp.com'
+    And I navigate to 'Sortable Data Tables'
+    When I view Example 1 table
+    Then the table in Example 1 is displayed as expected
